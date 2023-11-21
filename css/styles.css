@@ -24,7 +24,6 @@ nav h1 {
     text-align: center;
     margin: 0;
     font-size: 1.5em;
-    text-emphasis: bold;
 }
 
 
@@ -96,7 +95,6 @@ a {
     margin: 0;
     padding: 0;
     font-size: 1.2em;
-    text-emphasis: bold;
 }
 
 .projects {
@@ -274,9 +272,3 @@ footer nav {
         margin: 1vw;
     }
 }
-
-/* 
-.projects .project {
-        width: calc(50% - 2vw);/* 2 columns */
-/* margin: 1vw;
-    } */
