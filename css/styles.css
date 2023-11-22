@@ -7,7 +7,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
     color: #000;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(176, 204, 222);
     margin-top: 2vh;
 }
 
@@ -45,6 +45,7 @@ nav li {
     flex: 1;
     padding: 2px;
     font-size: 1.2em;
+    border-radius: 50% / 15%
 }
 
 header {
@@ -61,8 +62,10 @@ header {
 header img {
     width: 60%;
     height: auto;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2vw;
+    border-radius: 10% / 15%;
+
 }
 
 a {
@@ -75,9 +78,12 @@ a {
     font-size: 1.1em;
     margin: 2vw;
     margin-bottom: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(24, 27, 47);
 }
 
 #portfolio {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,9 +91,12 @@ a {
     padding: 0;
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: ivory;
+    color: rgb(24, 27, 47);
 
 }
+
+
 
 #portfolio h3 {
     text-align: center;
@@ -97,6 +106,55 @@ a {
     font-size: 1.2em;
 }
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(204, 218, 227);
+    color: rgb(24, 27, 47);
+
+}
+
+#skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: auto;
+
+    color: rgb(24, 27, 47);
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#skills li {
+    margin: 0;
+    padding: 2vw;
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+    background-color: rgb(235, 247, 255);
+    border-radius: 25% / 10%;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
 .projects {
     width: 90%;
     justify-content: center;
@@ -104,12 +162,22 @@ a {
 }
 
 .projects img {
-    width: 100%;
+    width: 90%;
+    border-radius: 5% / 10%;
+    margin: 2px;
+    padding: 1vw;
 }
 
 .projects .project {
     width: 100%;
     margin: 1vw;
+}
+
+.projects p {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    color: rgb(24, 27, 47);
 }
 
 footer {
@@ -129,7 +197,7 @@ footer a {
 
 a:hover {
     text-transform: uppercase;
-    color: blue;
+    color: rgb(2, 156, 167);
     font-style: oblique;
 }
 
@@ -174,6 +242,7 @@ footer nav {
         padding: 0;
         font-size: 1em;
         background-color: transparent;
+
     }
 
     header {
